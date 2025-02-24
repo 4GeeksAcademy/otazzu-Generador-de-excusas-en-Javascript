@@ -14,7 +14,7 @@ function getFrase(){
 
     let frase = " "    
 
-    frase = who[getRandom(4)] + action[getRandom(4)] + what[getRandom(3)] + when[getRandom(5)];
+    frase = who[getRandom(who.length)] + action[getRandom(action.length)] + what[getRandom(what.length)] + when[getRandom(when.length)];
 
     return frase;
     
